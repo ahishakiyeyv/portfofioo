@@ -140,11 +140,11 @@
     </article>
     <footer>
         <div class="copy">
-            <p>&copy 2021 BUDIGO Bertrand, Tous Droits Réservés</p>
+            <p>&copy 2022 BUDIGO Bertrand, Tous Droits Réservés</p>
         </div>
         <div class="contact">
             <p class="cont">Contact: <a class="media" href="facebook.com"><i class="fab fa-facebook-square"></i></a> <a class="media" href="twitter.com"><i class="fab fa-twitter-square"></i></a> <a
-                    class="media" href="mailto:bertrandbudigohau@gmail.com" target:_blank><i class="fas fa-envelope-square"></i></a></p>
+                    class="media" href="mailto:bertrandbudigohau@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></p>
         </div>
         <p class="dev">Developped by Y.I Ahishakiye</p>
     </footer>
