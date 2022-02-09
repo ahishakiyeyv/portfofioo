@@ -357,7 +357,7 @@ footer{
     }
     aside{
         /* content-visibility: hidden; */
-        display: nones;
+        display: none;
     }
     /*=========container1========*/
     .container1{
