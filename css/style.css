@@ -353,7 +353,7 @@ footer{
         overflow-x: hidden;
     }
     body{
-        width:360px;
+        width:480px;
     }
     aside{
         /* content-visibility: hidden; */
@@ -361,7 +361,7 @@ footer{
     }
     /*=========container1========*/
     .container1{
-        width:360px;
+        width:480px;
         margin-left:0;
     }
     .content1{
@@ -371,6 +371,7 @@ footer{
         display:flex;
         flex-direction:column-reverse;
         margin:0;
+        overflow:hidden;
     }
     .pre{
         font-size:16px;
@@ -401,7 +402,7 @@ footer{
         display:flex;
         flex-direction:column-reverse;
         margin-left:0;
-        width:360px;
+        width:480px;
         height:550px;
     }
     .h2{
@@ -421,7 +422,7 @@ footer{
     }
     .competence{
         height:200px;
-        width:350px;
+        width:480px;
         margin:5px;
     }
     .competence:hover{
@@ -429,7 +430,7 @@ footer{
     }
     .realisation{
         height:200px;
-        width:350px;
+        width:480px;
         margin:5px;
     }
     .realisation:hover{
@@ -440,13 +441,13 @@ footer{
     }
     /*==============container3==============*/
     #container3{
-        width:360px;
+        width:480px;
         margin:0;
         box-sizing: border-box;
     }
     .div3{
         box-sizing: border-box;
-        width:350px;
+        width:480px;
         margin:5px;
     }
     .para{
@@ -475,7 +476,7 @@ footer{
     }
     /*=============container4==============*/
     .container4{
-        width:360px;
+        width:480px;
         margin-top:40px;
         margin-left:0;
         box-sizing: border-box;
@@ -491,7 +492,7 @@ footer{
     }
     .box1{
         margin-left:0;
-        width:300px;
+        width:470px;
         height:150px;
         margin-top:30px;
         padding:70px;
@@ -499,7 +500,7 @@ footer{
     }
     .box2{
         margin-left:0;
-        width:300px;
+        width:470px;
         height:150px;
         padding:70px;
         overflow: hidden;
@@ -511,7 +512,7 @@ footer{
         box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.76);
     }
     footer{
-        width:360px;
+        width:480px;
         display:flex;
         flex-direction: column;
     }
