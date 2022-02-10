@@ -73,6 +73,17 @@ article{
     background:transparent;
     color:ivory;
 }
+.urg{
+    width:300px;
+    height:30px;
+    border-bottom:2px solid rgb(5, 5, 27);
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    outline:none;
+    background:transparent;
+    color:ivory;
+}
 #textarea{
     border:0;
     border-bottom:2px solid rgb(5, 5, 27);
@@ -84,6 +95,18 @@ article{
     font-size:15px;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+.sub{
+    width:35%;
+    background:blue;
+    color:ivory;
+    padding:3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub:hover{
+    color:blue;
+    background:ivory;
+    transition:0.5s;
 }
 /*========================================footer===================================*/
 footer{
