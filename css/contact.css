@@ -110,43 +110,42 @@ footer{
     color:rgb(206, 206, 206);
 }
 /*================================MEDIA QUERRIES=======================*/
-@media screen and (max-width:360px) {
+@media screen and (max-width:600px) {
+    *{
+        box-sizing: border-box;
+    }
     body{
-        width:360px;
+        width:375px;
         background:gray;
-        overflow-wrap:break-word;
+        /* overflow-wrap:break-word; */
     }
     .para{
         width:350px;
         font-size:14px;
     }
     article{
-        box-sizing: border-box;
-        width:360px;
-        height:750px;
-        margin-left:15px;
-        padding:10px;
+        width:375px;
+        height:auto;
+
     }
     .container{
-        width:360px;
+        width:375px;
         display:flex;
         flex-direction: column;
-        margin:0;
-        padding:0;
     }
     .title{
-        font-size:20px;
+        font-size:16px;
         text-align:center;
+        letter-spacing: 3px;
     }
     .box1{
-        width:340px;
+        width:365px;
         height:300px;
-        margin:0;
+        margin-left:-15px;
     }
     .box2{
-        width:350px;
+        width:365px;
         height:300px;
-        margin:0;
     }
     .title1{
         font-size:14px;
@@ -165,26 +164,24 @@ footer{
     }
     /*====================footer=======================*/
     footer{
-        width:360px;
+        width:375px;
         display:flex;
         flex-direction: column;
-        background:linear-gradient(90deg,ivory,gray);
-        margin:0;
     }
     .copy p{
-        font-size: 12px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
     }
  .cont{
-        font-size:14px;
+        font-size:13px;
     }
     .dev{
-        font-size:12px;
-        
+        text-align:center;
         color:rgb(117, 117, 117);
     }
 }
 /*============================================MEDIA QUERRIES 2=========================*/
-@media  screen and (min-width:360px) and (max-width:375px) {
+/* @media  screen and (min-width:360px) and (max-width:375px) {
     body{
         width:375px;
         background:gray;
@@ -236,9 +233,9 @@ footer{
         display:flex;
         flex-direction: column;
         margin-left:-15px;
-    }
+    } */
     /*====================footer=======================*/
-    footer{
+    /* footer{
         width:375px;
         display:flex;
         flex-direction: column;
@@ -256,4 +253,4 @@ footer{
         
         color:rgb(117, 117, 117);
     }
-}
+} */
