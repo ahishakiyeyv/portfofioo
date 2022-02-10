@@ -353,7 +353,7 @@ footer{
         overflow-x: hidden;
     }
     body{
-        width:480px;
+        width:375px;
     }
     aside{
         /* content-visibility: hidden; */
@@ -361,7 +361,7 @@ footer{
     }
     /*=========container1========*/
     .container1{
-        width:480px;
+        width:375px;
         margin-left:0;
     }
     .content1{
@@ -375,11 +375,11 @@ footer{
     }
     .pre{
         font-size:16px;
-        margin-left:50px;
+        margin-left:70px;
     }
     .pre1{
         font-size:16px;
-        margin-left:50px;
+        margin-left:70px;
     }
     .image1{
         margin-left:80px;
@@ -402,7 +402,7 @@ footer{
         display:flex;
         flex-direction:column-reverse;
         margin-left:0;
-        width:480px;
+        width:375px;
         height:550px;
     }
     .h2{
@@ -413,7 +413,7 @@ footer{
     }
     .identite{
         height:200px;
-        width:350px;
+        width:375px;
         margin:5px;
         
     }
@@ -422,7 +422,7 @@ footer{
     }
     .competence{
         height:200px;
-        width:480px;
+        width:375px;
         margin:5px;
     }
     .competence:hover{
@@ -430,7 +430,7 @@ footer{
     }
     .realisation{
         height:200px;
-        width:480px;
+        width:375px;
         margin:5px;
     }
     .realisation:hover{
@@ -441,13 +441,13 @@ footer{
     }
     /*==============container3==============*/
     #container3{
-        width:480px;
+        width:375px;
         margin:0;
         box-sizing: border-box;
     }
     .div3{
         box-sizing: border-box;
-        width:480px;
+        width:375px;
         margin:5px;
     }
     .para{
@@ -456,27 +456,27 @@ footer{
     .trois{
         display:flex;
         flex-direction: column-reverse;
-        margin-left:70px;
+        margin-left:80px;
     }
     .un{
-        height:120px;
+        height:150px;
         overflow: hidden;
     } 
     .deux{
-        height:120px;
+        height:150px;
         overflow: hidden;
     }
     .three{
-        height:120px;
+        height:150px;
         overflow: hidden;
     }
     .imag{
-        height:120px;
+        height:150px;
         overflow: hidden;
     }
     /*=============container4==============*/
     .container4{
-        width:480px;
+        width:375px;
         margin-top:40px;
         margin-left:0;
         box-sizing: border-box;
@@ -492,7 +492,7 @@ footer{
     }
     .box1{
         margin-left:0;
-        width:470px;
+        width:375px;
         height:150px;
         margin-top:30px;
         padding:70px;
@@ -500,7 +500,7 @@ footer{
     }
     .box2{
         margin-left:0;
-        width:470px;
+        width:375px;
         height:150px;
         padding:70px;
         overflow: hidden;
@@ -512,7 +512,7 @@ footer{
         box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.76);
     }
     footer{
-        width:480px;
+        width:375px;
         display:flex;
         flex-direction: column;
     }
