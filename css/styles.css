@@ -349,11 +349,13 @@ footer{
 /*=====================MEDIA QUERRIES======================*/
 @media screen and (max-width:600px){
     *{
-        font-size:8px;
-        overflow-x: hidden;
+        font-size:12px;
+        /* overflow-x: hidden; */
+        box-sizing: border-box;
     }
     body{
         width:375px;
+        background:linear-gradient(90deg,ivory,gray);
     }
     aside{
         /* content-visibility: hidden; */
@@ -362,7 +364,8 @@ footer{
     /*=========container1========*/
     .container1{
         width:375px;
-        margin-left:0;
+        margin:5px;
+        height:540px;
     }
     .content1{
         display:block;  
@@ -375,35 +378,39 @@ footer{
     }
     .pre{
         font-size:16px;
-        margin-left:70px;
+        margin-left:100px;
     }
     .pre1{
         font-size:16px;
-        margin-left:70px;
+        margin-left:100px;
     }
     .image1{
-        margin-left:80px;
-        border-radius:170px;
-        clip-path: none;
-        width:200px;
-        height:250px;
+        
+        margin-left:15px;
+        /* width:200px; */
+        height:230px;
     }
     .image{
+        clip-path: circle(37.5% at 50% 50%);
         margin-top:-10px;
-        width:200px;
-        height:250px;
-        
+        margin-left: inherit;
+        /* width:200px; */
+        /* height:inherit; */
+    }
+    .div2{
+        overflow:hidden;
     }
     .plus{
-        margin-top:-200px;
+        margin-top: -150px;
+        margin-left:120px;
     }
     /*============container2=============*/
     .container2{
         display:flex;
-        flex-direction:column-reverse;
-        margin-left:0;
+        flex-direction:column;
+        margin:5px;
         width:375px;
-        height:550px;
+        height:600px;
     }
     .h2{
         font-weight: 600;
@@ -412,25 +419,24 @@ footer{
         font-size:12px;
     }
     .identite{
-        height:200px;
-        width:375px;
+        height:210px;
+        width:365px;
         margin:5px;
-        
     }
     .identite:hover{
         box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.76);
     }
     .competence{
-        height:200px;
-        width:375px;
+        height:210px;
+        width:365px;
         margin:5px;
     }
     .competence:hover{
         box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.76);
     }
     .realisation{
-        height:200px;
-        width:375px;
+        height:210px;
+        width:365px;
         margin:5px;
     }
     .realisation:hover{
@@ -442,21 +448,21 @@ footer{
     /*==============container3==============*/
     #container3{
         width:375px;
-        margin:0;
-        box-sizing: border-box;
+        margin:5px;
+        height:700px;
     }
     .div3{
-        box-sizing: border-box;
-        width:375px;
+        width:365px;
         margin:5px;
     }
     .para{
         font-size:12px;
+
     }
     .trois{
         display:flex;
         flex-direction: column-reverse;
-        margin-left:80px;
+        margin-left:90px;
     }
     .un{
         height:150px;
@@ -477,33 +483,28 @@ footer{
     /*=============container4==============*/
     .container4{
         width:375px;
-        margin-top:40px;
-        margin-left:0;
-        box-sizing: border-box;
-        height:400px;
-        overflow: hidden;
+        margin:5px;
+        height:500px;
+        /* overflow: hidden; */
     }
     .title{
         font-weight: 600;
     }
     .content4{
+        width:370px;
         display:flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        overflow: hidden;
     }
     .box1{
-        margin-left:0;
-        width:375px;
-        height:150px;
-        margin-top:30px;
-        padding:70px;
-        overflow: hidden;
+        margin:10px;
+      height:100px;
+      width:300px;
     }
     .box2{
-        margin-left:0;
-        width:375px;
-        height:150px;
-        padding:70px;
-        overflow: hidden;
+        margin:10px;
+       height:100px;
+       width:300px;
     }
     .box1:hover{
         box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.76);
@@ -511,6 +512,7 @@ footer{
     .box2:hover{
         box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.76);
     }
+    /*=====footer=====*/
     footer{
         width:375px;
         display:flex;
